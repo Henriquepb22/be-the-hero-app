@@ -8,7 +8,7 @@ export const LoginWrapper = styled.div`
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 `;
 
 export const LoginSection = styled.section`
@@ -24,23 +24,4 @@ export const LoginForm = styled.form`
 export const LoginTitle = styled.h1`
     font-size: 32px;
     margin-bottom: 32px;
-`;
-
-export const FormLink = styled.a`
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-    color: #41414d;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: opacity 0.2s;
-
-    &:hover {
-        opacity: 0.8;
-    }
-
-    svg {
-        margin-right: 8px;
-    }
 `;
