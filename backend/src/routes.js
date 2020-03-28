@@ -18,7 +18,7 @@ routes.post(
             email: Joi.string()
                 .email()
                 .required(),
-            whatsapp: Joi.number()
+            whatsapp: Joi.string()
                 .min(10)
                 .max(11)
                 .required(),
