@@ -27,7 +27,7 @@ export default StyleSheet.create({
         fontSize: 30,
         marginBottom: 16,
         marginTop: 48,
-        color: "#13131a",
+        color: "#13131A",
         fontWeight: "bold"
     },
 
@@ -44,13 +44,13 @@ export default StyleSheet.create({
     incident: {
         padding: 24,
         borderRadius: 8,
-        backgroundColor: "#fff",
+        backgroundColor: "#FFF",
         marginBottom: 16
     },
 
     incidentProperty: {
         fontSize: 14,
-        color: "#41414d",
+        color: "#41414D",
         fontWeight: "bold"
     },
 
@@ -68,7 +68,7 @@ export default StyleSheet.create({
     },
 
     detailsButtonText: {
-        color: "#e02041",
+        color: "#E02041",
         fontSize: 15,
         fontWeight: "bold"
     }
